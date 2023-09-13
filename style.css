@@ -1,0 +1,544 @@
+
+
+                @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Ubuntu:ital@1&display=swap');
+        
+                body {
+                    height: 1895px;
+                    margin: 0;
+                    padding: 0;
+                    font-family: red hat display;
+                    overflow-x: hidden;
+                }
+        
+                main {
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        
+                .logo {
+                    margin: auto;
+                    width: 119px;
+                    margin-top: 80px;
+                }
+        
+                .image_hero {
+                    display: none;
+                }
+        
+                .image_hero_left {
+                    margin-top: 0;
+                    margin-left: -32px;
+                }
+        
+                .image_hero_right {
+                    margin-top: 55px;
+                    margin-right: -32px;
+                }
+        
+                .first_content {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 66px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    /* width: 1504px; */
+        
+                }
+        
+                .content_text {
+                    margin-top: 47px;
+                    margin-bottom: auto;
+                }
+        
+                .content_text h1 {
+                    width: 540px;
+                    height: 128px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 64px;
+                    line-height: 64px;
+                    text-align: center;
+                    color: #28283D;
+                    margin-top: 0;
+                }
+        
+                .content_text p {
+                    width: 540px;
+                    height: 52px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #87879D;
+                    margin-top: 34px;
+                }
+        
+        
+                .download_button1 {
+                    font-family: inherit;
+                    width: 193px;
+                    height: 58px;
+                    background: #4D96A9;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    border-radius: 29px;
+                    border: none;
+                    margin-left: 100px;
+                }
+        
+                .download_button1:hover {
+                    cursor: pointer;
+                    background-color: #71C0D4;
+                }
+        
+                .span1 {
+                    font-family: inherit;
+                    height: 26px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    color: #8FE3F9;
+                }
+        
+                .what_button {
+                    font-family: inherit;
+                    width: 139px;
+                    height: 58px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    background: #855FB1;
+                    border-radius: 29px;
+                    border: none;
+                }
+        
+                .what_button:hover {
+                    cursor: pointer;
+                    background-color: #B18BDD;
+                }
+        
+        
+                .shape1 {
+                    width: 56px;
+                    height: 140px;
+                    margin-top: 110px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        
+                .path1 {
+                    mix-blend-mode: normal;
+                    opacity: 0.25;
+                    border-left: 1px solid #87879D;
+                    height: 84px;
+                    margin-left: 28px;
+                }
+        
+                .circle1 {
+                    box-sizing: border-box;
+                    background: #FAFAFA;
+                    border: 1px solid rgba(135, 135, 157, 0.25);
+                    border-radius: 29px;
+                    width: 56px;
+                    height: 56px;
+                    margin-left: auto;
+                    margin-right: auto;
+        
+                }
+        
+                .number1 {
+                    text-align: center;
+                    width: 56px;
+                    font-family: inherit;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    color: #87879D;
+                    margin-top: 17px;
+        
+                }
+        
+                .second_content {
+                    width: 1110px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 64px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    column-gap: 30px;
+                }
+        
+                .second_content img {
+                    width: 255px;
+                    height: 242px;
+                    border-radius: 8px;
+                }
+        
+                .third_content {
+                    font-family: inherit;
+                    width: 540px;
+                    height: 240px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    margin-top: 151px;
+                }
+        
+                .third_content h1 {
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    color: #4D96A9;
+                }
+        
+                .third_content h2 {
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 44px;
+                    color: #28283D;
+                    margin-bottom: 0;
+                }
+        
+                .third_content p {
+                    width: 540px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #87879D;
+                    line-height: 26px;
+                }
+        
+                .shape2 {
+                    width: 56px;
+                    height: 140px;
+                    margin-top: 72px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        
+                .path2 {
+                    height: 84px;
+                    mix-blend-mode: normal;
+                    opacity: 0.25;
+                    border-left: 1px solid #87879D;
+                    margin-left: 28px;
+                }
+        
+                .circle2 {
+                    background: #FAFAFA;
+                    border: 1px solid rgba(135, 135, 157, 0.25);
+                    border-radius: 29px;
+                    width: 56px;
+                    height: 56px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: absolute;
+                    z-index: 10;
+                    ;
+        
+                }
+        
+                .number2 {
+                    text-align: center;
+                    width: 56px;
+                    font-family: inherit;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    color: #87879D;
+                    margin-top: 17px;
+                    position: absolute;
+                    z-index: 10;
+                    margin-left: auto;
+                    margin-right: auto;
+        
+                }
+        
+                footer {
+                    background-image: linear-gradient(0, #4D96A9E7, #4D96A9E7), url(assets/desktop/image-footer.jpg);
+                    width: 100%;
+                    height: 308px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-top: -30px;
+                }
+        
+                .footercontent {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 1110px;
+                    height: 88px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        
+                .footercontent h1 {
+                    width: 350px;
+                    margin-top: 116px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 44px;
+                    color: #FAFAFA;
+                }
+        
+                .footercontent p {
+                    width: 350px;
+                    margin-top: 116px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #FAFAFA;
+                }
+        
+                .download_button2 {
+                    font-family: inherit;
+                    margin-top: 116px;
+                    width: 193px;
+                    height: 58px;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    background: #855FB1;
+                    border-radius: 29px;
+                    border: none;
+                }
+        
+                .span2 {
+                    font-family: inherit;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #D9B8FF;
+                    ;
+                }
+        
+                .download_button2:hover {
+                    cursor: pointer;
+                    background-color: #B18BDD;
+                }
+        
+        
+                @media only screen and (min-width: 768px) and (max-width: 1104px) {
+        
+                    body {
+                        overflow-x: hidden;
+                        width: auto;
+                    }
+        
+                    main {
+                        overflow-x: hidden;
+                        width: auto;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+        
+                    .image_hero_left,
+                    .image_hero_right {
+                        display: none;
+                    }
+        
+                    .image_hero {
+                        display: flex;
+                        margin-left: -26px;
+                    }
+        
+                    .first_content {
+                        display: flex;
+                        flex-direction: column;
+                    }
+        
+                    .content_text {
+                        margin-left: 120px;
+        
+                    }
+        
+                    .second_content {
+                        width: 689px;
+                        gap: 10px;
+                    }
+        
+                    .second_content img {
+                        width: 164px;
+                        height: 156px;
+                    }
+        
+                    .third-content {
+                        margin-top: 32px;
+                    }
+        
+                    footer {
+                        background-image: linear-gradient(0, #4D96A9E7, #4D96A9E7), url(assets/tablet/image-footer.jpg);
+                        width: 768px;
+                        height: 456px;
+                    }
+        
+                    .footercontent {
+                        display: inline-block;
+                        text-align: center;
+                    }
+        
+                    .footercontent h1 {
+                        margin-left: 210px;
+                    }
+        
+                    .footercontent p {
+                        margin-left: 110px;
+                        margin-top: 32px;
+                        width: 573px;
+                        height: 52px;
+                        width: 573px;
+                        font-size: 17px;
+                    }
+        
+                    .download_button2 {
+                        margin-top: 40px;
+                        margin-left: -310px;
+                    }
+                }
+        
+                @media only screen and (min-width:300px) and (max-width:420px) {
+        
+                    body {
+                        overflow-x: hidden;
+                        width: auto;
+                    }
+        
+                    main {
+                        overflow-x: hidden;
+                        width: auto;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+        
+                    .image_hero_left,
+                    .image_hero_right {
+                        display: none;
+                    }
+        
+                    .image_hero {
+                        display: flex;
+                        margin-left: -35px;
+                    }
+        
+                    .image_hero img {
+                        width: 414px;
+                        height: 153px;
+                        
+                    }
+        
+                    .first_content {
+                        display: flex;
+                        flex-direction: column;
+                    }
+        
+                    .content_text {
+                        margin-bottom: auto;
+                    }
+        
+                    .content_text h1 {
+                        width: 327px;
+                        font-size: 40px;
+                        line-height: 44px;
+                        margin-left: 30px;
+                    }
+        
+                    .content_text p {
+                        font-size: 15px;
+                        width: 327px;
+                        margin-bottom: auto;
+                        margin-top: -48px;
+                        margin-left: 30px;
+                    }
+        
+                    .download_button1 {
+                        margin-top: 48px;
+                        margin-left: 100px;
+                    }
+        
+                    .what_button {
+                        margin-top: 15px;
+                        margin-left: 128px;
+                    }
+        
+                    .shape1 {
+                        margin-top: 64px;
+                    }
+        
+                    .second_content {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        column-gap: 25px;
+                        row-gap: 25px;
+                        width: 327px;
+                        height: 310px;
+        
+        
+                    }
+        
+                    .second_content img {
+                        width: 151px;
+                        height: 143px;
+                    }
+        
+                    .third_content {
+                        width: 327px;
+                        margin-top: 64px;
+                    }
+        
+                    .third_content h2 {
+                        width: 327px;
+                        font-size: 32px;
+                        line-height: 36px;
+                    }
+        
+                    .third_content p {
+                        width: 327px;
+                        font-size: 16px;
+                    }
+        
+                    .shape2 {
+                        margin-top: 64px;
+                    }
+        
+                    footer {
+                        background-image: linear-gradient(0, #4D96A9E7, #4D96A9E7), url(assets/mobile/image-footer.jpg);
+                        height: 428px;
+                    }
+        
+                    .footercontent {
+                        display: inline-block;
+                        text-align: center;
+                    }
+        
+                    .footercontent h1 {
+                        font-size: 32px;
+                        margin-top: 92px;
+                        margin-left: 20px;
+                    }
+        
+                    .footercontent p {
+                        font-size: 18px;
+                        margin-top: auto;
+                        margin-left: 30px;
+                        width: 327px;
+                    }
+        
+                    .download_button2 {
+                        margin-top: 15px;
+                        margin-left: -720px;
+                    }
+        
+                }
