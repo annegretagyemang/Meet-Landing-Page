@@ -512,6 +512,8 @@
                     .shape2 {
                         margin-top: 64px;
                     }
+
+                    /* styles for the footer */
         
                     footer {
                         background-image: linear-gradient(0, #4D96A9E7, #4D96A9E7), url(assets/mobile/image-footer.jpg);
